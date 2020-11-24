@@ -1,0 +1,16 @@
+{
+  "name": "MP Change Icon",
+  "version": "1.0",
+  "description": "Replace the confusing 'bomb' icon with the alternate emoji",
+  "manifest_version": 2,
+  "permissions": ["tabs", "*://*.mountainproject.com/*"],
+  "web_accessible_resources": [
+    "images/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.mountainproject.com/*"],
+      "css" : ["mp-change-icon.css"]
+    }
+  ]
+}

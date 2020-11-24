@@ -1,0 +1,25 @@
+img[src*="/img/stars/bomb"] {
+  width:0px !important; 
+  height:0px !important; 
+  padding: 7px; 
+}
+
+.setScoreStars img[src*="/img/stars/bomb"] {
+  padding: 10px; 
+}
+
+.left-nav td.route-score img[src*="/img/stars/bomb"] {
+  padding: 6px;
+}
+
+img[src="/img/stars/bombEmpty.svg"] {
+  background-image: url('chrome-extension://__MSG_@@extension_id__/images/poopEmpty.svg');
+}
+
+img[src="/img/stars/bombYellow.svg"] {
+  background-image: url('chrome-extension://__MSG_@@extension_id__/images/poopYellow.svg');
+}
+
+img[src="/img/stars/bombBlue.svg"] {
+  background-image: url('chrome-extension://__MSG_@@extension_id__/images/poopBlue.svg');
+}
